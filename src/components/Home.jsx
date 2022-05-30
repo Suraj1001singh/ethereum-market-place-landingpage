@@ -16,7 +16,7 @@ export default function Home() {
             <span>
               <img src={heroText} alt="Hero Text" />
             </span>{" "}
-            Digital NFT Market Place
+          NFT Market Place
           </h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
