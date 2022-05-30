@@ -14,15 +14,15 @@ export default function Footer() {
   const contactInfo = [
     {
       icon: <MdEmail />,
-      value: "kishanshet21@gmail.com",
+      value: "drco@gmail.com",
     },
     {
       icon: <MdPhoneInTalk />,
-      value: "+(480) 555-0103",
+      value: "9999999999",
     },
     {
       icon: <IoLocationSharp />,
-      value: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
+      value: "Nainital, uttrakhand",
     },
   ];
   const socialIcons = [
@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="brand">
           <img src={logo} alt="logo" />
         </div>
-        <p className="description">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+        <p className="description">Nainital, uttrakhand </p>
         <div className="social-icons">
           {socialIcons.map((icon) => {
             return <div className="icon">{icon}</div>;
